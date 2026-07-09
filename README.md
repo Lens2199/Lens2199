@@ -30,16 +30,16 @@
 
 ## 🪶 About Me
 
-\```
+```
 const deo = {
-role: "Computer Science Student & Full Stack Developer",
-university: "Florida Atlantic University — CS, Class of 2027",
-focus: ["Full Stack Engineering", "AI-Integrated Applications", "Developer Tooling"],
-currentlyBuilding: "CodeMap — an AI-powered codebase explainer",
-approach: "Ship real, working software — not tutorials",
-openTo: ["Software Engineering Internships", "Full Stack Roles", "AI/ML-adjacent Engineering"]
+  role: "Aspiring Software Engineer (Full-Stack, React, Node.js, AI Integration)",
+  university: "Florida Atlantic University — CS, Class of 2027",
+  focus: ["Full Stack Engineering", "AI-Integrated Applications", "Developer Tooling"],
+  currentlyBuilding: "CodeMap — an AI-powered codebase explainer",
+  approach: "Ship real, working software — not tutorials",
+  openTo: ["Software Engineering Internships", "Full Stack Roles", "AI/ML-adjacent Engineering"]
 };
-\```
+```
 
 I'm a Computer Science student building toward a career in full stack software engineering, with a growing focus on integrating AI/LLM capabilities into real, deployed products. I care about writing production-quality code, understanding systems deeply rather than copy-pasting solutions, and shipping projects that actually work end-to-end — from database to deployment.
 
@@ -48,16 +48,27 @@ I'm a Computer Science student building toward a career in full stack software e
 ## 🛠️ Tech Stack
 
 **Languages**
-![JavaScript](https://skillicons.dev/icons?i=js) ![TypeScript](https://skillicons.dev/icons?i=ts) ![Python](https://skillicons.dev/icons?i=python) ![Java](https://skillicons.dev/icons?i=java) ![Cpp](https://skillicons.dev/icons?i=cpp)
+![TypeScript](https://skillicons.dev/icons?i=ts)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
 **Frontend**
-![React](https://skillicons.dev/icons?i=react) ![Tailwind](https://skillicons.dev/icons?i=tailwind) ![HTML5](https://skillicons.dev/icons?i=html) ![CSS3](https://skillicons.dev/icons?i=css)
+![React](https://skillicons.dev/icons?i=react) ![Tailwind](https://skillicons.dev/icons?i=tailwind) ![Vite](https://skillicons.dev/icons?i=vite)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
 
-**Backend & Databases**
-![Node.js](https://skillicons.dev/icons?i=nodejs) ![Express](https://skillicons.dev/icons?i=express) ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![MongoDB](https://skillicons.dev/icons?i=mongodb) ![MySQL](https://skillicons.dev/icons?i=mysql)
+**Backend**
+![Node.js](https://skillicons.dev/icons?i=nodejs) ![Express](https://skillicons.dev/icons?i=express)
+![JWT](https://img.shields.io/badge/JWT_Auth-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![bcrypt](https://img.shields.io/badge/bcrypt-338033?style=for-the-badge)
 
-**Cloud, DevOps & Tooling**
-![Vercel](https://skillicons.dev/icons?i=vercel) ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) ![VSCode](https://skillicons.dev/icons?i=vscode) ![Postman](https://skillicons.dev/icons?i=postman)
+**Infrastructure & Deployment**
+![Vercel](https://skillicons.dev/icons?i=vercel) ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github)
+![Neon](https://img.shields.io/badge/Neon_PostgreSQL-00E599?style=for-the-badge&logo=postgresql&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+
+**AI & Libraries**
+![Claude API](https://img.shields.io/badge/Anthropic_Claude_API-8B5CF6?style=for-the-badge)
+![Mermaid](https://img.shields.io/badge/Mermaid-FF3670?style=for-the-badge&logo=mermaid&logoColor=white)
+![React Markdown](https://img.shields.io/badge/React_Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
 <br/>
 
@@ -67,9 +78,9 @@ I'm a Computer Science student building toward a career in full stack software e
 
 | Domain | Proficiency | Details |
 |---|:---:|---|
-| LLM API Integration | 🟣🟣🟣⚪⚪ | Integrated the Anthropic Claude API into a production app to power AI-generated codebase analysis |
+| LLM API Integration | 🟣🟣🟣⚪⚪ | Built an AI-powered analysis pipeline that fetches GitHub repository files and uses the Claude API to generate structured explanations of codebase architecture |
 | Prompt Engineering | 🟣🟣🟣⚪⚪ | Designed structured prompts for consistent, structured AI output (codebase explanations, diagram generation) |
-| AI-Assisted Dev Tooling | 🟣🟣🟣⚪⚪ | Built a tool that uses AI to explain unfamiliar codebases to developers |
+| AI-Assisted Dev Tooling | 🟣🟣🟣⚪⚪ | Engineered automatic architecture diagram generation using Mermaid, giving users a visual map of how a codebase's components connect |
 
 </div>
 
@@ -85,13 +96,13 @@ An AI-powered tool that analyzes codebases and generates clear explanations and 
 
 | | |
 |---|---|
-| **Stack** | React, TypeScript, Node.js, Express, PostgreSQL, JWT, Anthropic Claude API |
+| **Stack** | React, TypeScript, Node.js, PostgreSQL, Anthropic Claude API |
 | **Infrastructure** | Vercel (frontend), Render (backend), Neon (PostgreSQL) |
-| **Core Features** | JWT authentication (signup/login), AI-generated codebase analysis with Mermaid.js diagrams, sidebar analysis history, public share links, mobile-responsive UI |
+| **Core Features** | Secure JWT-based auth with bcrypt password hashing, AI-generated codebase analysis with Mermaid diagram generation, saved analysis history, public share links with unique URLs |
 | **Repository** | [github.com/Lens2199](https://github.com/Lens2199) |
 | **Live** | [codemap-eight.vercel.app](https://codemap-eight.vercel.app) |
 
-Built full stack from schema design through deployment — including secure authentication, a persistent history system, and integration with the Claude API to turn raw source code into structured, human-readable explanations and diagrams.
+Built an AI-powered analysis pipeline that fetches GitHub repository files and uses the Claude API to generate structured explanations of codebase architecture, complete with auto-generated Mermaid diagrams so users can visually see how a codebase's components connect.
 
 </details>
 
@@ -101,15 +112,15 @@ Built full stack from schema design through deployment — including secure auth
 <summary><b>🔎 GitHub Repo Explorer</b></summary>
 <br/>
 
-A full stack web application for searching and exploring GitHub repositories with user authentication and persistent saved data.
+A full stack web application that lets users search GitHub repositories in real time using the GitHub API.
 
 | | |
 |---|---|
-| **Stack** | React, Node.js, Express, MongoDB, JWT |
-| **Core Features** | User authentication, GitHub repository search and exploration, persistent user data |
+| **Stack** | React, TypeScript, Node.js, Express, MongoDB, JWT |
+| **Core Features** | JWT-based authentication for account creation and saved favorite repositories, responsive React/TypeScript frontend with clean state management |
 | **Repository** | [github.com/Lens2199](https://github.com/Lens2199) |
 
-A complete full stack build covering frontend UI, a REST API backend, database modeling, and secure auth — deployed and functional end-to-end.
+Designed a responsive React/TypeScript frontend with clean state management for search results and saved items, deployed on Vercel (frontend) and Render (backend), connected to a MongoDB database for persistent storage.
 
 </details>
 
@@ -158,7 +169,7 @@ A complete full stack build covering frontend UI, a REST API backend, database m
 
 ## 🎯 Current Focus
 
-\```yaml
+```yaml
 Learning:
   - Data Structures & Algorithms (Arrays & Hashing → building toward full roadmap)
   - TypeScript for production-grade applications
@@ -170,7 +181,7 @@ Exploring:
 Open To:
   - Software Engineering Internships (2026 cycle)
   - Full Stack Engineering roles
-\```
+```
 
 <br/>
 
