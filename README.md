@@ -32,12 +32,12 @@
 
 \```
 const deo = {
-  role: "Computer Science Student & Full Stack Developer",
-  university: "Florida Atlantic University — CS, Class of 2027",
-  focus: ["Full Stack Engineering", "AI-Integrated Applications", "Developer Tooling"],
-  currentlyBuilding: "CodeMap — an AI-powered codebase explainer",
-  approach: "Ship real, working software — not tutorials",
-  openTo: ["Software Engineering Internships", "Full Stack Roles", "AI/ML-adjacent Engineering"]
+role: "Computer Science Student & Full Stack Developer",
+university: "Florida Atlantic University — CS, Class of 2027",
+focus: ["Full Stack Engineering", "AI-Integrated Applications", "Developer Tooling"],
+currentlyBuilding: "CodeMap — an AI-powered codebase explainer",
+approach: "Ship real, working software — not tutorials",
+openTo: ["Software Engineering Internships", "Full Stack Roles", "AI/ML-adjacent Engineering"]
 };
 \```
 
